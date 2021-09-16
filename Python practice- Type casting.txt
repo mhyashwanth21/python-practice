@@ -1,0 +1,7 @@
+#Type casting
+x = 10
+y = "yash"
+z = 4.0
+print(type(x), type(y), type(z))
+q = int(z)
+print(type(q))
