@@ -1,0 +1,6 @@
+#Logical operators
+#And(&) Or(|) Not(!)
+#and --> left and right elements are true
+marks = 67
+print(marks>60 and marks< 85)
+print(marks>60 or marks<85)
