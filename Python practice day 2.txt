@@ -1,0 +1,16 @@
+# Assignment operators
+
+x = 100
+print(x)
+#before
+#y = x +10
+#print(y)
+#after
+x += 10
+print(x)
+x -=30
+print(x)
+x *=2
+print(x)
+x /= 10
+print(x)
