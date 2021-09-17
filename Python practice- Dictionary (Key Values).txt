@@ -1,0 +1,21 @@
+#dictionary (key value) pair
+
+dct = {}
+dct['p1'] = 1
+dct['p2'] = 1
+dct['p3'] = 1
+
+print(dct['p1'])
+
+#key can be int, float, string
+dct['hello world'] = 1
+dct[6.78] = 2
+print(dct)
+#Value types int, float, string, list, tupple
+#all key values must be unique
+dct['int'] = 12
+dct['float'] = 4.56
+dct['srting'] = 'hello'
+dct['list'] = [1,2,3,4,5,6,7,8]
+dct['tuple'] = (1,2,3,4,5) 
+print(dct)
