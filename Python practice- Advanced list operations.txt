@@ -1,0 +1,11 @@
+#Advance list oprations
+courses = ["CSE", "ISE", "CV", "ME", "EC", "EEE"]
+print(courses)
+new_list= courses
+print(new_list)
+new_list.append("IEM")
+print(courses)
+new_list.append("IT")
+print(new_list)
+updated_course = courses.copy()
+print(updated_course)
