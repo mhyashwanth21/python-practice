@@ -1,0 +1,39 @@
+#List
+marks = [0, 12, 16, 38, 35,38, "yashwanth", 28.45]
+print(marks)
+print(marks[-1])
+print(marks[0])
+print(marks[2::])
+print(marks[:-2])
+print(marks[3:5])
+
+#Append
+newlist= []
+print(newlist)
+newlist.append(100)
+print(newlist)
+#insert
+newlist.insert(0, "hello")
+print(newlist)
+#lenght
+print(len(newlist))
+
+#pop function
+fruits = ["apple", "bananna", "grapes", "orange", "mango"]
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.pop()
+print(fruits)
+#remove function
+fruits.remove("apple")
+print(fruits)
+fruits.append("butter fruit")
+print(fruits)
+#clear function
+fruits.clear()
+print(fruits)
