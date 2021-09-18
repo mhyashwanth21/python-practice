@@ -1,0 +1,11 @@
+#Dictionary functions
+marks = {'bhumi': [1,2,3,4,5,], 'Yashwanth' : [6,7,8,9,10]}
+#Get all keys
+name = marks.keys()
+print(name)
+#Get all values
+name1 = marks.values()
+print(name1)
+#Get all items
+name2 = marks.items()
+print(name2)
