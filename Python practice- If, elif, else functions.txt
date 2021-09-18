@@ -1,0 +1,17 @@
+# IF function
+marks = int(input("Enter the number here : "))
+if (marks >100 or marks < 0):
+    marks = int(input("Enter your marks here : "))
+print(marks)
+if (marks < 35):
+    print("you have failed")
+elif (marks >= 35 and marks <50):
+    print("you have passed with 3rd class")
+elif (marks >=50 and marks <60):
+    print("you have passed with 2nd class")
+elif (marks >=60 and marks <85):
+    print("you have passed with first class")
+elif (marks >=85 and marks <=100):
+    print("you have passed with Distinction")
+else:
+    print("ENter valid input")
