@@ -1,0 +1,11 @@
+#Loops, Range
+#Loops
+names = ["RCB", "CSK", "MI", "SRH","DC", "RR", "KKR"]
+for team in names:
+    print("Hi", team)
+print("IPL starts")
+#Range
+for Num in range(7):
+    print("Hey team", Num)
+for numb in range(1,21):
+    print("Numbers", numb)
